@@ -9,19 +9,19 @@ export default function Navbar()  {
   const toggleMenu = () => setOpen(!isOpen);
 
   return (
-      <header className="text-gray-500 relative bg-white">
-        <div className="max-w-[70vw] py-4 px-4 sm:px-6">
-          <div className="-mr-2 -ml-3 -my-16 md:hidden">
+      <header className="text-gray-400 relative ">
+        <div className="w-auto py-4 px-4 sm:px-6">
+          <div className="-mr-2 -ml-2 -my-16 md:hidden">
             <button onClick={toggleMenu} className="inline-flex items-center justify-center">
               <Image src='/menu.png' width='50' height='100' />
             </button>
           </div>
           <nav className="hidden md:flex flex-row space-x-20 justify-center">
-              <Link className="hover:text-gray-800" href="">Home</Link>
-              <Link className="hover:text-gray-800" href="/bio">Biographies</Link>
-              <Link className="hover:text-gray-800" href="/music">Music</Link>
-              <Link className="hover:text-gray-800" href="/media">Media</Link>
-              <Link className="hover:text-gray-800" href="/contact">Contact Us</Link>
+              <Link className="hover:text-gray-100" href="/">Home</Link>
+              <Link className="hover:text-gray-100" href="/bio">Biographies</Link>
+              <Link className="hover:text-gray-100" href="/music">Music</Link>
+              <Link className="hover:text-gray-100" href="/media">Media</Link>
+              <Link className="hover:text-gray-100" href="/contact">Contact</Link>
           </nav>
       </div>
 
@@ -41,11 +41,11 @@ export default function Navbar()  {
                 </div>
                 <div className="mt-6">
                   <nav className="grid gap-y-8">
-                    <Link href="">Home</Link>
+                    <Link href="/">Home</Link>
                     <Link  href="/bio">Biographies</Link>
                     <Link  href="/music">Music</Link>
                     <Link href="/media">Media</Link>
-                    <Link href="/contact">Contact Us</Link>
+                    <Link href="/contact">Contact</Link>
                   </nav>
                 </div>
               </div>

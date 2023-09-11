@@ -7,7 +7,7 @@ export default function Home() {
   return (
   <>
     <Head>
-      <title>biographies | The Dandy Buzzkills</title>
+      <title>biographies | Darcy James Cheatle</title>
     </Head>
     <div className='container mx-auto px-5'>
       <Header />

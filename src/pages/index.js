@@ -7,25 +7,25 @@ export default function Home() {
   return (
   <>
     <Head>
-      <title>home | The Dandy Buzzkills</title>
+      <title>home | Darcy James Cheatle</title>
     </Head>
     <div className='container mx-auto px-5'>
       <Header />
-      <Image className="mb-8 md:my-12" src="/hero.jpg" width="1500" height="1000"/>
+      <Image className="mb-8 md:my-12" src="/003.JPG" width="1500" height="1000"/>
       <div className="md:grid md:grid-cols-2 md:gap-x-16 lg:gap-x-8 mb-20 md:mb-28">
-        <div>
+        <div> 
           <h3 className="mb-4 text-4xl lg:text-5xl leading-tight">
-            A boy band playing on Kaurna Land
+            A multi-instrumentalist playing dusty RnB on Kaurna Land.
           </h3>
         </div>
         <div>
           <p className="text-lg leading-relaxed mb-4">
-          Welcome! This website is the electronic press kit of the infamous Adelaide-based post-punk outift The Dandy Buzzkills.
-          Herein you'll find all of our music, our press shots and some live footage, as well as our story (in four different word counts)
+          Welcome! This website is the electronic press kit of the Adelaide based multi-instrumentalist Darcy James Cheatle.
+          Herein you'll find all of his music, his press shots and some live footage, as well as his story (in three different word counts)
           and more than enough routes through which you can get in touch.
           </p>
           <div className="mb-4 md:mb-0 text-sm text-gray-500">
-            Website last updated 17/08/2023
+            Website last updated 11/9/2023
           </div>
         </div>
       </div>

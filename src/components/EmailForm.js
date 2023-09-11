@@ -92,7 +92,7 @@ export default function ContactUs() {
     <main>
                 <form
           onSubmit={handleSubmit}
-          className="rounded-lg shadow-xl flex flex-col px-8 py-8 mb-8 bg-white"
+          className="border-[6px] border-[#f8af34] rounded-md  shadow-2xl flex flex-col px-8 py-8 mb-8 bg-[#361a17]"
         >
           <h1 className="text-2xl font-bold">
             Send a message
@@ -174,7 +174,7 @@ export default function ContactUs() {
           <div className="flex flex-row items-center justify-start">
             <button
               type="submit"
-              className="px-10 mt-8 py-2 bg-[#130F49] text-gray-50 font-light rounded-md text-lg flex flex-row items-center"
+              className="px-10 mt-8 py-2 bg-[#431E1B] text-gray-50 font-light rounded-md text-lg flex flex-row items-center"
             >
               {buttonText}
             </button>

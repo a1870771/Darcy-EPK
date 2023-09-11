@@ -2,11 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-@font-face {
-  font-family: "cutout";
-  src: url('../../public/fonts/Magazine-Cutouts-Font.ttf');
-}
-
 ::selection {
   background-color: #df513e;
   color: #fefefe;
@@ -31,6 +26,7 @@ html {
 }
 
 body {
-  color: rgb(0,0,0);
-  background: rgb(255, 255, 255)
+  color: rgb(214, 214, 214);
+  background-image: url('/stars.jpeg');
+  background-size: 40%;
 }
