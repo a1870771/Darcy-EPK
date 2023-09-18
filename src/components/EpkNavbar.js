@@ -9,7 +9,7 @@ export default function Navbar()  {
   const toggleMenu = () => setOpen(!isOpen);
 
   return (
-      <header className="text-gray-400 relative ">
+      <header className="text-gray-400 font-[bold] relative ">
         <div className="w-auto py-4 px-4 sm:px-6">
           <div className="-mr-2 -ml-2 -my-16 md:hidden">
             <button onClick={toggleMenu} className="inline-flex items-center justify-center">

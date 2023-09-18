@@ -14,8 +14,8 @@ export default function Home() {
       <Image className="mb-8 md:my-12" src="/003.JPG" width="1500" height="1000"/>
       <div className="md:grid md:grid-cols-2 md:gap-x-16 lg:gap-x-8 mb-20 md:mb-28">
         <div> 
-          <h3 className="mb-4 text-4xl lg:text-5xl leading-tight">
-            A multi-instrumentalist playing dusty RnB on Kaurna Land.
+          <h3 className="mb-4 text-3xl lg:text-4xl font-[bold] leading-tight">
+            A multi instrumentalist playing dusty RnB on Kaurna Land.
           </h3>
         </div>
         <div>

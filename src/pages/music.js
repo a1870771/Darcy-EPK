@@ -22,7 +22,7 @@ export default function Music() {
             <h1 className="text-2xl font-bold">Smokeys II (Album)</h1>
             <p><span className='font-bold'>Released: </span>2021</p>
             <p><span className='font-bold'>Written by: </span>Darcy Cheatle</p>
-            <p><span className='font-bold'>Produced by: </span>Darcy Cheatle and old mate</p>
+            <p><span className='font-bold'>Produced by: </span>Samael Cole</p>
             <p className='font-bold'>Available on:</p>
               <div className='flex flex-row gap-4'>
               <Link target='_blank' href='https://open.spotify.com/album/2YU6ZKqQcHvvZTXri5UApj?si=3Vf7K0F0SkykzE9k8Dg1bg'>
@@ -102,7 +102,7 @@ export default function Music() {
             <h1 className="text-2xl font-bold">Never Gonna Stay (Single)</h1>
             <p><span className='font-bold'>Released: </span>2020</p>
             <p><span className='font-bold'>Written by: </span>Darcy Cheatle</p>
-            <p><span className='font-bold'>Produced by: </span>Darcy Cheatle</p>
+            <p><span className='font-bold'>Produced by: </span>Samael Cole</p>
             <p className='font-bold'>Available on:</p>
               <div className='flex flex-row gap-4'>
               <Link target='_blank' href='https://open.spotify.com/album/0cjJQJPYPtacba51SqFxDX?si=6gAEeb4fT2uIToPRfCTyKw'>

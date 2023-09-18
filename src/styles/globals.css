@@ -7,6 +7,21 @@
   color: #fefefe;
 }
 
+@font-face {
+  font-family: "extra-wide";
+  src: url('../../public/fonts/roc-grotesk-extrawide-extrabold.otf');
+}
+
+@font-face {
+  font-family: "medium";
+  src: url('../../public/fonts/roc-grotesk-wide-medium.otf')
+}
+
+@font-face {
+  font-family: "bold";
+  src: url('../../public/fonts/roc-grotesk-extrawide-bold.otf');
+}
+
 html {
   min-width: 360px;
 }
@@ -27,6 +42,6 @@ html {
 
 body {
   color: rgb(214, 214, 214);
-  background-image: url('/stars.jpeg');
+  background-image: url('/stars.jpg');
   background-size: 40%;
 }
