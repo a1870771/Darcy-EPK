@@ -11,13 +11,13 @@ export default function Music() {
     </Head>
     <div className="container mx-auto px-5">
       <Header />
-      <div className="flex flex-col lg:grid lg:grid-cols-2 md:gap-x-16 lg:gap-x-40 lg:my-20 lg:my-28">
+      <div className="flex flex-col lg:grid lg:grid-cols-2 lg:gap-x-40 lg:my-28">
         
 
         
         
         <div className="border-[6px] border-[#f8af34] rounded-md  shadow-xl flex flex-col md:flex-row gap-8 px-8 py-8 mb-8 bg-[#361a17] hover:shadow-2xl">
-          <Image src={'/smokeys-ii.JPG'} width={250} height={250}/>
+          <Image src={'/smokeys-ii.JPG'} className='w-full inline-flex items-center justify-center md:w-[250px]'  width={250} height={250}/>
           <div className='flex flex-col gap-3'>
             <h1 className="text-2xl font-bold">Smokeys II (Album)</h1>
             <p><span className='font-bold'>Released: </span>2021</p>
@@ -43,7 +43,7 @@ export default function Music() {
 
 
         <div className="border-[6px] border-[#f8af34] rounded-md shadow-xl flex flex-col md:flex-row gap-8 px-8 py-8 mb-8 bg-[#361a17] hover:shadow-2xl">
-          <Image src={'/smokeys-lp.jpg'} width={250} height={250}/>
+          <Image src={'/smokeys-lp.jpg'} className='w-full inline-flex items-center justify-center md:w-[250px]'  width={250} height={250}/>
           <div className='flex flex-col gap-3'>
             <h1 className="text-2xl font-bold">Smokeys LP (Album)</h1>
             <p><span className='font-bold'>Released: </span>2020</p>
@@ -71,7 +71,7 @@ export default function Music() {
         
         
         <div className="border-[6px] border-[#f8af34] rounded-md shadow-xl flex flex-col md:flex-row gap-8 px-8 py-8 mb-8 bg-[#361a17] hover:shadow-2xl">
-          <Image src={'/slip-away.jpeg'} width={250} height={250}/>
+          <Image src={'/slip-away.jpeg'} className='w-full inline-flex items-center justify-center md:w-[250px]' width={250} height={250}/>
           <div className='flex flex-col gap-3'>
             <h1 className="text-2xl font-bold">Slip Away (Single)</h1>
             <p><span className='font-bold'>Released: </span>2020</p>
@@ -97,7 +97,7 @@ export default function Music() {
 
 
         <div className="border-[6px] border-[#f8af34] rounded-md  shadow-xl flex flex-col md:flex-row gap-8 px-8 py-8 mb-8 bg-[#361a17] hover:shadow-2xl">
-          <Image src={'/never-gonna-stay.jpg'} width={250} height={250}/>
+          <Image src={'/never-gonna-stay.jpg'} className='w-full inline-flex items-center justify-center md:w-[250px]'  width={250} height={250}/>
           <div className='flex flex-col gap-3'>
             <h1 className="text-2xl font-bold">Never Gonna Stay (Single)</h1>
             <p><span className='font-bold'>Released: </span>2020</p>
