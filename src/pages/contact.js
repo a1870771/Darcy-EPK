@@ -21,8 +21,9 @@ export default function Home() {
           Please feel free to reach out via any of the following links to get in touch, or send an email using the form on the right!
           </p>
           <div className='mt-8 flex flex-col'>
-            <Link href='https://www.instagram.com/dandybuzzkills/' target="_blank" className='hover:underline'>Instagram</Link>
-            <Link href='https://www.facebook.com/dandybuzzkills/' target="_blank" className='hover:underline'>Facebook</Link>
+            <Link href='https://www.instagram.com/darcyjamescheatle/' target="_blank" className='hover:underline'>Instagram</Link>
+            <Link href='https://www.facebook.com/people/Darcy-Cheatle/100004796087040/' target="_blank" className='hover:underline'>Facebook</Link>
+            <Link href='https://www.youtube.com/c/DarcyJamesCheatle' target="_blank" className='hover:underline'>YouTube</Link>
           </div>
         </div>
         <EmailForm/>
