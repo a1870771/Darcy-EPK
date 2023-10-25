@@ -25,7 +25,7 @@ export default function Home() {
           and more than enough routes through which you can get in touch.
           </p>
           <div className="mb-4 md:mb-0 text-sm text-gray-500">
-            Website last updated 11/9/2023
+            Website last updated 25/10/2023
           </div>
         </div>
       </div>
