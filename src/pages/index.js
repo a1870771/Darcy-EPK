@@ -19,9 +19,9 @@ export default function Home() {
           </h3>
         </div>
         <div>
-          <p className="text-lg leading-relaxed mb-4">
-          Welcome! This website is the electronic press kit of the Adelaide based multi-instrumentalist Darcy James Cheatle.
-          Herein you'll find all of his music, his press shots and some live footage, as well as his story (in three different word counts)
+          <p className="text-lg leading-relaxed mb-4 font-[medium]">
+          Welcome<span className="font-[arial]">!</span> This website is the electronic press kit of the Adelaide based multi<span className="font-[arial]">-</span>instrumentalist Darcy James Cheatle.
+          Herein you<span className="font-[arial]">'</span>ll find all of his music, his press shots and some live footage, as well as his story <span className="font-[arial]">(</span>in three different word counts<span className="font-[arial]">) </span> 
           and more than enough routes through which you can get in touch.
           </p>
           <div className="mb-4 md:mb-0 text-sm text-gray-500">

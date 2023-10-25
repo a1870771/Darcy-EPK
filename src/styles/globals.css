@@ -8,6 +8,11 @@
 }
 
 @font-face {
+  font-family: "arial";
+  src: url('../../public/fonts/arial.ttf');
+}
+
+@font-face {
   font-family: "extra-wide";
   src: url('../../public/fonts/roc-grotesk-extrawide-extrabold.otf');
 }

@@ -18,9 +18,9 @@ export default function Navbar()  {
           </div>
           <nav className="hidden md:flex flex-row space-x-20 justify-center">
               <Link className="hover:text-gray-100" href="/">Home</Link>
-              <Link className="hover:text-gray-100" href="/bio">Biographies</Link>
               <Link className="hover:text-gray-100" href="/music">Music</Link>
               <Link className="hover:text-gray-100" href="/media">Media</Link>
+              <Link className="hover:text-gray-100" href="/bio">Biographies</Link>
               <Link className="hover:text-gray-100" href="/contact">Contact</Link>
           </nav>
       </div>
@@ -42,9 +42,9 @@ export default function Navbar()  {
                 <div className="mt-6">
                   <nav className="grid gap-y-8">
                     <Link href="/">Home</Link>
-                    <Link  href="/bio">Biographies</Link>
                     <Link  href="/music">Music</Link>
                     <Link href="/media">Media</Link>
+                    <Link  href="/bio">Biographies</Link>
                     <Link href="/contact">Contact</Link>
                   </nav>
                 </div>

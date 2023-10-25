@@ -92,9 +92,9 @@ export default function ContactUs() {
     <main>
                 <form
           onSubmit={handleSubmit}
-          className="border-[6px] border-[#f8af34] rounded-md  shadow-2xl flex flex-col px-8 py-8 mb-8 bg-[#361a17]"
+          className="border-[6px] border-[#f8af34] rounded-md  shadow-2xl font-[medium] flex flex-col px-8 py-8 mb-8 bg-[#361a17]"
         >
-          <h1 className="text-2xl font-bold">
+          <h1 className="text-2xl font-[bold]">
             Send a message
           </h1>
 
@@ -102,7 +102,7 @@ export default function ContactUs() {
             htmlFor="fullname"
             className="text-gray-500 font-light mt-8"
           >
-            Full name<span className="text-red-500">*</span>
+            Full name<span className="font-[arial] text-red-500">*</span>
           </label>
           <input
             type="text"
@@ -121,7 +121,7 @@ export default function ContactUs() {
             htmlFor="email"
             className="text-gray-500 font-light mt-4"
           >
-            E-mail<span className="text-red-500">*</span>
+            Email<span className="font-[arial] text-red-500">*</span>
           </label>
           <input
             type="email"
@@ -140,7 +140,7 @@ export default function ContactUs() {
             htmlFor="subject"
             className="text-gray-500 font-light mt-4"
           >
-            Subject<span className="text-red-500">*</span>
+            Subject<span className="font-[arial] text-red-500">*</span>
           </label>
           <input
             type="text"
@@ -158,7 +158,7 @@ export default function ContactUs() {
             htmlFor="message"
             className="text-gray-500 font-light mt-4"
           >
-            Message<span className="text-red-500">*</span>
+            Message<span className="font-[arial] text-red-500">*</span>
           </label>
           <textarea
             name="message"
