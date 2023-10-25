@@ -11,7 +11,7 @@ export default function Home() {
     </Head>
     <div className='container mx-auto px-5'>
       <Header />
-      <Image className="mb-8 md:my-12" src="/003.JPG" width="1500" height="1000"/>
+      <Image className="mb-8 md:my-12" src="/007.JPG" width="1500" height="1000"/>
       <div className="md:grid md:grid-cols-2 md:gap-x-16 lg:gap-x-8 mb-20 md:mb-28">
         <div> 
           <h3 className="mb-4 text-2xl lg:text-4xl font-[bold] leading-tight">
