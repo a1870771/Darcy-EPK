@@ -111,7 +111,7 @@ export default function ContactUs() {
               setFullname(e.target.value);
             }}
             name="fullname"
-            className="bg-transparent border-b py-2 pl-4 focus:outline-none focus:rounded-md focus:ring-1 ring-green-500 font-light text-gray-500"
+            className="bg-transparent border-b py-2 pl-4 focus:outline-none focus:rounded-md focus:ring-1 ring-green-500 font-[arial] text-gray-500"
           />
           {errors?.fullname && (
             <p className="text-red-500">Fullname cannot be empty.</p>
@@ -130,7 +130,7 @@ export default function ContactUs() {
             onChange={(e) => {
               setEmail(e.target.value);
             }}
-            className="bg-transparent border-b py-2 pl-4 focus:outline-none focus:rounded-md focus:ring-1 ring-green-500 font-light text-gray-500"
+            className="bg-transparent border-b py-2 pl-4 focus:outline-none focus:rounded-md focus:ring-1 ring-green-500 font-[arial] text-gray-500"
           />
           {errors?.email && (
             <p className="text-red-500">Email cannot be empty.</p>
@@ -149,7 +149,7 @@ export default function ContactUs() {
             onChange={(e) => {
               setSubject(e.target.value);
             }}
-            className="bg-transparent border-b py-2 pl-4 focus:outline-none focus:rounded-md focus:ring-1 ring-green-500 font-light text-gray-500"
+            className="bg-transparent border-b py-2 pl-4 focus:outline-none focus:rounded-md focus:ring-1 ring-green-500 font-[arial] text-gray-500"
           />
           {errors?.subject && (
             <p className="text-red-500">Subject cannot be empty.</p>
@@ -166,7 +166,7 @@ export default function ContactUs() {
             onChange={(e) => {
               setMessage(e.target.value);
             }}
-            className="bg-transparent border-b py-2 pl-4 focus:outline-none focus:rounded-md focus:ring-1 ring-green-500 font-light text-gray-500"
+            className="bg-transparent border-b py-2 pl-4 focus:outline-none focus:rounded-md focus:ring-1 ring-green-500 font-[arial] text-gray-500"
           ></textarea>
           {errors?.message && (
             <p className="text-red-500">Message body cannot be empty.</p>
@@ -182,12 +182,12 @@ export default function ContactUs() {
           <div className="text-left">
             {showSuccessMessage && (
               <p className="text-green-500 font-semibold text-sm my-2">
-                Thankyou! Your Message has been delivered.
+                Thankyou<span className="font-[arial]">!</span> Your Message has been delivered.
               </p>
             )}
             {showFailureMessage && (
               <p className="text-red-500">
-                Oops! Something went wrong, please try again.
+                Oops<span className="font-[arial]">!</span> Something went wrong, please try again.
               </p>
             )}
           </div>
