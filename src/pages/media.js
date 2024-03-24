@@ -45,19 +45,19 @@ export default function Home() {
       <div className="max-w-7xl mx-auto pb-20 md:pb-16 px-4 sm:pb-24 sm:px-6 max-w-[75vw] lg:px-8">
         <div className="grid grid-cols-1 gap-y-10 sm:grid-cols-2 gap-x-6 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8">
           <div className="w-full aspect-w-1 aspect-h-1 bg-gray-200 rounded-lg overflow-hidden xl:aspect-w-7 xl:aspect-h-8">
-            <Image src='/001.jpeg' layout='fill' objectFit='cover' className='group-hover:opacity-75 duration-700 ease-in-out'/>
+            <Image src='/001.JPEG' layout='fill' objectFit='cover' className='group-hover:opacity-75 duration-700 ease-in-out'/>
           </div>
           <div className="w-full aspect-w-1 aspect-h-1 bg-gray-200 rounded-lg overflow-hidden xl:aspect-w-7 xl:aspect-h-8">
-            <Image src='/002.jpeg' layout='fill' objectFit='cover' className='group-hover:opacity-75 duration-700 ease-in-out'/>
+            <Image src='/002.JPEG' layout='fill' objectFit='cover' className='group-hover:opacity-75 duration-700 ease-in-out'/>
           </div>
           <div className="w-full aspect-w-1 aspect-h-1 bg-gray-200 rounded-lg overflow-hidden xl:aspect-w-7 xl:aspect-h-8">
-            <Image src='/003.jpeg' layout='fill' objectFit='cover' className='group-hover:opacity-75 duration-700 ease-in-out'/>
+            <Image src='/003.JPEG' layout='fill' objectFit='cover' className='group-hover:opacity-75 duration-700 ease-in-out'/>
           </div>
           <div className="w-full aspect-w-1 aspect-h-1 bg-gray-200 rounded-lg overflow-hidden xl:aspect-w-7 xl:aspect-h-8">
-            <Image src='/004.jpeg' layout='fill' objectFit='cover' className='group-hover:opacity-75 duration-700 ease-in-out'/>
+            <Image src='/004.JPEG' layout='fill' objectFit='cover' className='group-hover:opacity-75 duration-700 ease-in-out'/>
           </div>
           <div className="w-full aspect-w-1 aspect-h-1 bg-gray-200 rounded-lg overflow-hidden xl:aspect-w-7 xl:aspect-h-8">
-            <Image src='/005.jpeg' layout='fill' objectFit='cover' className='group-hover:opacity-75 duration-700 ease-in-out'/>
+            <Image src='/005.JPEG' layout='fill' objectFit='cover' className='group-hover:opacity-75 duration-700 ease-in-out'/>
           </div>
           <div className="w-full aspect-w-1 aspect-h-1 bg-gray-200 rounded-lg overflow-hidden xl:aspect-w-7 xl:aspect-h-8">
             <Image src='/006.JPG' layout='fill' objectFit='cover' className='group-hover:opacity-75 duration-700 ease-in-out'/>
@@ -68,6 +68,13 @@ export default function Home() {
           <div className="w-full aspect-w-1 aspect-h-1 bg-gray-200 rounded-lg overflow-hidden xl:aspect-w-7 xl:aspect-h-8">
             <Image src='/008.JPG' layout='fill' objectFit='cover' className='group-hover:opacity-75 duration-700 ease-in-out'/>
           </div>
+          <div className="w-full aspect-w-1 aspect-h-1 bg-gray-200 rounded-lg overflow-hidden xl:aspect-w-7 xl:aspect-h-8">
+            <Image src='/009.JPEG' layout='fill' objectFit='cover' className='group-hover:opacity-75 duration-700 ease-in-out'/>
+          </div>
+          <div className="w-full aspect-w-1 aspect-h-1 bg-gray-200 rounded-lg overflow-hidden xl:aspect-w-7 xl:aspect-h-8">
+            <Image src='/010.JPEG' layout='fill' objectFit='cover' className='group-hover:opacity-75 duration-700 ease-in-out'/>
+          </div>
+
         </div>
       </div>
 
