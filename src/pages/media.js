@@ -2,7 +2,9 @@ import Header from '@/components/EpkHeader'
 import Head from 'next/head'
 import Footer from '@/components/EpkFooter'
 import Image from 'next/image';
-import ReactPlayer from 'react-player/youtube'
+import dynamic from 'next/dynamic'
+ const ReactPlayer = dynamic(() => import("react-player"), { ssr: false });
+// import ReactPlayer from 'react-player/youtube'
  
 export default function Home() {
   return (
@@ -25,7 +27,7 @@ export default function Home() {
           </div>
         </div>
         <div className="border-[6px] border-[#f8af34] rounded-md   shadow-xl flex flex-col gap-8 px-8 py-8 mb-8 bg-[#361a17] hover:shadow-2xl">
-          <ReactPlayer url='https://www.youtube.com/watch?v=Ek0ukr54c0E' width="[100vw]"  controls='true'/>
+          <ReactPlayer url='https://www.youtube.com/watch?v=wTV7xkPqzp8' width="[100vw]"  controls='true'/>
           <div className='flex flex-col gap-3'>
             <h1 className="text-2xl font-bold">Slip Away (Acoustic Performance)</h1>
             <p><span className='font-bold'>Recorded: </span>Jan 2024</p>
