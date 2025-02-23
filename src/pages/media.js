@@ -17,12 +17,12 @@ export default function Home() {
       <h1 className='text-5xl -pt-8 md:pt-16 pb-4 text-center font-[bold]'>Videos</h1>
     <div className="flex flex-col lg:grid lg:grid-cols-2 md:gap-x-16 lg:gap-x-40 lg:my-16">
         <div className="border-[6px] border-[#f8af34] rounded-md shadow-xl flex flex-col gap-8 px-8 py-8 mb-8 bg-[#361a17] hover:shadow-2xl">
-          <ReactPlayer url='https://www.youtube.com/watch?v=Ha85r-_WULE' width="[100vw]" controls='true'/>
+          <ReactPlayer url='https://www.youtube.com/watch?v=kKAd-T1pAQc' width="[100vw]" controls='true'/>
           <div className='flex flex-col gap-3'>
-            <h1 className="text-2xl font-bold">Won't Get Bored (Music Video)</h1>
-            <p><span className='font-bold'>Recorded: </span>Feb 2022</p>
-            <p><span className='font-bold'>Directed by: </span>Darcy James Cheatle</p>
-            <p><span className='font-bold'>Filmed by: </span>Willa Bettison, Jess Butas, Dean Wilkinson and Darcy James Cheatle</p>
+            <h1 className="text-2xl font-bold">Turnaround (Music Video)</h1>
+            <p><span className='font-bold'>Recorded: </span>Dec 2024</p>
+            <p><span className='font-bold'>Directed by: </span>Ziggy and Darcy James Cheatle</p>
+            <p><span className='font-bold'>Filmed by: </span>Ziggy</p>
             <p className='font-bold'>Mp4 available upon request</p>
           </div>
         </div>
