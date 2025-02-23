@@ -2,9 +2,7 @@ import Header from '@/components/EpkHeader'
 import Head from 'next/head'
 import Footer from '@/components/EpkFooter'
 import Image from 'next/image';
-import dynamic from 'next/dynamic'
-const ReactPlayer = dynamic(() => import("react-player"), { ssr: false });
-
+import ReactPlayer from 'react-player/youtube'
  
 export default function Home() {
   return (
